@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(6, 18, 59)!important;
+}
+/*--------------------PANELES----------------------*/
+
+.Panel1{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Motiva Sans", Sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+.Panel2{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Motiva Sans", Sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;;
+}
+/*--------------------CARRUSEL---------------------*/
+#carouselExampleCaptions{
+    width: 40%;
+    margin-left: 30%;
+}
+.Titulo-Carrusel{
+    color: black;
+    font-size: 2rem;
+}
+/*--------------------SECCIONES--------------------*/
+section[id]{
+    scroll-margin-top: 100px;
+}
+/*--------------------TEXTOS-----------------------*/
+.Titulo-juegos{
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.Descripciones{
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+h5{
+    color: #ADA1C8;
+    font-size: 0.5rem;
+    padding: 5px;
+}
+/*--------------------JUEGOS-----------------------*/
+.caja-principal{
+    background-color: rgb(36, 36, 43);
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 0.5fr;
+    margin-top: 50px;
+    padding: 30px;
+}
+.contenedor-cajas{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1.5fr;
+    gap: 30px;
+    margin: 15px;
+}
+.Precio{
+    color: white;
+    font-size: 2rem;
+}
+.caja1{
+    height: 311px;
+    box-shadow: 0px 0px 10px 5px lightcyan;
+}
+.caja3{
+    display: inline-block;
+    padding-top: 29px; 
+}
+.caja4{
+    padding-top: 24px;
+}
+.caja5{
+    grid-column: 1/4 ;
+}
+.caja-categoría{
+    border-left: lightgray solid 5px;
+}
+.texto-categoria{
+    color: white;
+    text-align: center;
+}
+/*------------------FOOTER---------------*/
+.final{
+    background-color: rgb(0 7 30);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+.Pie{
+    color: gray;
+}
+.Pie-inicial{
+    font-size: 2rem;
+}
+/*------------------ESTILOS VISUALES-------------*/
+.edit{
+    margin: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    width: fit-content;
+}
+.categorías:hover{
+    color: white;
+    transition: 150ms ease-in-out, color 150ms ease-in-out; 
+}
+.edit:hover{
+    background-color: black;
+    transition: 150ms ease-in-out, color 150ms ease-in-out; 
+}
+.fa-star, .fa-star-half-stroke{
+    color: gold;
+}
+.link-compra{
+    text-align: center;
+    text-decoration: none;
+}
+.boton-compra{
+    background-image: radial-gradient(circle at top left, #85a805 10%, #6a8704 80%);
+    border-radius: 10px;
+    width: 60%;
+    color: white;
+    font-size: 2rem;
+}
+.fa-instagram{
+    color: palevioletred;
+}
+.fa-discord{
+    color: lightgray;
+}
+.Oferta1{
+    position: absolute;
+    display: inline-block;
+    background: #A1CD44;
+    width: 54px;
+    height: 40px;
+    bottom: -15%;
+    right: 5.8%;
+}
+.Oferta1-1{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    bottom: -15%;
+    right: -21.4%;
+}
+.Oferta2{
+    width: 65px;
+    height: 40px;
+    display: inline-block;
+    background: #A1CD44;
+    bottom: -15%;
+    right: 5.8%;
+    position: absolute;
+}
+.Oferta2-1{
+    width: 145px;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+    bottom: -15%;
+    right: -21.4%;
+    position: absolute;
+}
+.Oferta3{
+    position: absolute;
+    display: inline-block;
+    background: #A1CD44;
+    width: 54px;
+    height: 40px;
+    bottom: -15%;
+    right: 5.8%;
+}
+.Oferta3-1{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    bottom: -15%;
+    right: -21.4%;
+}
